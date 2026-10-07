@@ -5,12 +5,15 @@
     <title>TOTALLY</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link name="stylesheet" src="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header wrapper">
         <div class="header__outer-container">
-            <div class="header__inner-container">
+            <div class="header__inner-container container">
                 <div class="header__logo">
                     <h1><a href="#"><img src="img/logo.svg" alt="totally"></a></h1>
                 </div>
@@ -20,7 +23,7 @@
                             <li><a href="#">ALL</a></li>
                             <li><a href="#">NEW</a></li>
                             <li><a href="#">VINTAGE</a></li>
-                            <li><a href="#">Category</a></li>
+                            <li><a href="#">CATEGORY</a></li>
                             <li><a href="#">LOOKBOOK</a></li>
                             <li><a href="#">BLOG</a></li>
                         </ul>
@@ -36,95 +39,97 @@
         </div>
     </header>
 
-    <main class="product__wrapper wrapper">
-        <div class="product__image">
-            <img src="img/item.jpg" alt="">
-        </div>
-        <div class="product__right">
-            <div class="product__info">
-                <h2 class="product__title">TOTALLY Short Sleeve Shirt</h2>
-                <p class="product__description">
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <p class="product__price">&yen; 9,999<span>*tax</span></p>
+    <main class="product wrapper">
+        <div class="product__container container">
+            <div class="product__image">
+                <img src="img/item.jpg" alt="">
             </div>
-            <div class="product__form">
-                <table>
-                    <tr class="table-header">
-                        <th>Color</th>
-                        <th>Size</th>
-                        <th>個数</th>
-                    </tr>
-                    <tr>
-                        <td>White</td>
-                        <td>S</td>
-                        <td>
-                            <select>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>White</td>
-                        <td>M</td>
-                        <td>
-                            <select>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>White</td>
-                        <td>L</td>
-                        <td>
-                            <select>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                            </select>
-                        </td>
-                    </tr>
-                </table>
-                <div class="product__btn">
-                    <a href="#">ADD TO CART</a>
+            <div class="product__right">
+                <div class="product__info">
+                    <h2 class="product__title">TOTALLY Short Sleeve Shirt</h2>
+                    <p class="product__description">
+                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="product__price">&yen; 9,999<span>*tax</span></p>
                 </div>
-            </div>
-            <div class="product__size-table">
-                <table>
-                    <tr table-header>
-                        <th>Size</th>
-                        <th>Chest</th>
-                        <th>Weist</th>
-                        <th>Height</th>
-                    </tr>
-                    <tr>
-                        <td class="item-size">S</td>
-                        <td>99 ~ 99</td>
-                        <td>99 ~ 99</td>
-                        <td>99 ~ 99</td>
-                    </tr>
-                    <tr>
-                        <td class="item-size">M</td>
-                        <td>99 ~ 99</td>
-                        <td>99 ~ 99</td>
-                        <td>99 ~ 99</td>
-                    </tr>
-                    <tr>
-                        <td class="item-size">L</td>
-                        <td>99 ~ 99</td>
-                        <td>99 ~ 99</td>
-                        <td>99 ~ 99</td>
-                    </tr>
-                </table>
+                <div class="product__form">
+                    <table>
+                        <tr class="table-header">
+                            <th>Color</th>
+                            <th>Size</th>
+                            <th>個数</th>
+                        </tr>
+                        <tr>
+                            <td>White</td>
+                            <td>S</td>
+                            <td>
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>White</td>
+                            <td>M</td>
+                            <td>
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>White</td>
+                            <td>L</td>
+                            <td>
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="product__btn">
+                        <a href="#">ADD TO CART</a>
+                    </div>
+                </div>
+                <div class="product__size-table">
+                    <table>
+                        <tr table-header>
+                            <th>Size</th>
+                            <th>Chest</th>
+                            <th>Weist</th>
+                            <th>Height</th>
+                        </tr>
+                        <tr>
+                            <td class="item-size">S</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                        </tr>
+                        <tr>
+                            <td class="item-size">M</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                        </tr>
+                        <tr>
+                            <td class="item-size">L</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                            <td>99 ~ 99</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer wrapper">
         <div class="copyright">
             <p>&copy; TOTALLY</p>
         </div>
